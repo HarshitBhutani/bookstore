@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  #btn{
+    background-color: blueviolet;
+    border-radius: 15px;
+  }
+  #btn2{
+    background-color: blueviolet;
+    border-radius: 15px;
+  }
+</style>
+<body>
+    
+   <div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Successfully Deleted</strong> You have successfully created a request for book publishement.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<div>
+    <form action="/publish" method="POST">
+         <input id="btn2" type="submit" value="Publish a Book"></form>
+    </form>
+</div>
+<div>
+  <form action="/checkabook" method="POST">
+    <input id="btn" type="submit" value="Check a book"></form>
+</div>
+</body>
+</html>
